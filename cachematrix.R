@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Defining a new Cache Matrix will set the inverse Matrix Null
+## set will set a new matrix in cache matrix and will define the inverse null
+## get will return the matrix saved in the cache matrix
+## setinv will set the inverse matrix
+## getinv will return the inverse matrix, if it was not set before, will return null
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
